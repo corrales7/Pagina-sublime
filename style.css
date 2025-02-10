@@ -78,7 +78,7 @@ body {
  
  #about {
      background-color: #ecedee;
-     padding: 2px 20px;
+     padding: 80px 20px;
      text-align: center;
  }
  
@@ -95,7 +95,7 @@ body {
  
  .box {
      background: white;
-     padding: 40px;
+     padding: 60px 40px;
      margin-top: 0;
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
      text-align: center;
@@ -104,7 +104,7 @@ body {
  }
  
  .box i {
-    font-size: 40px;  /* Tamaño del icono */
+    font-size: 60px;  /* Tamaño del icono */
     color: #6078ea;   /* Color del icono */
     margin-bottom: 15px; /* Espacio debajo del icono */
     display: block;
@@ -122,7 +122,7 @@ body {
  .box p {
      font-family: 'Rubik', sans-serif;
      color: #333;
-     font-size: 16px;
+     font-size: 17px;
      line-height: 1.5;
      text-align: left;
  }
@@ -138,10 +138,10 @@ body {
      display: inline-block;
      background: #17ead9;
      color: white;
-     padding: 15px 130px;
+     padding: 20px 130px;
      border-radius: 5px;
      text-decoration: none;
-     font-size: 15px;
+     font-size: 20px;
      font-family: 'Rubik', sans-serif;
      transition: background 0.3s ease;
  }
@@ -149,3 +149,90 @@ body {
  .button:hover {
      background: #6078ea;
  }
+ #guidance {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    overflow: hidden; /* Evita scroll no deseado */
+}
+
+#guidance .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#guidance .text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#guidance .text-content h3 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 1px;
+    text-align: left;
+    font-weight: 70;
+}
+
+#guidance .text-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+
+#guidance .testimonial h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #060606;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#guidance .testimonial blockquote {
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    left: -35px; 
+    line-height: 1.8;
+}
+
+#guidance .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #555;
+    
+}
+
+#guidance .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#guidance .img-content {
+    flex: 1;
+    position: relative;
+    margin-left: 20px;
+}
+
+#guidance .img-content img {
+    width: 180%;
+    height: auto;
+    position: relative;
+    right: -39px; /* Hace que sobresalga hacia la derecha */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
