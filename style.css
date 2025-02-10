@@ -1,0 +1,151 @@
+body {
+    font-family: rubik, sans-serif;
+    font-weight: lighter;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     color: white;
+     background: linear-gradient(to right, #17ead9, #6078ea );
+ }
+ 
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     margin-bottom: -42px;
+ }
+ 
+ h1 {
+     margin-left: 50px;
+        font-size: 20px;
+        font-weight: 500;
+ }
+ 
+ nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     margin-right: 40px;
+     font-size: 18px;
+ }
+ 
+ nav ul li {
+     margin-right: 22px;
+ }
+ 
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .btn {
+     border: 2px solid white;
+     padding: 9px 19px;
+     border-radius: 3px;
+     margin-left: 20px;
+ }
+ 
+ main {
+     padding: 110px 30px;
+     background: linear-gradient(to right, #17ead9, #6078ea );
+ }
+ 
+ h2 {
+     font-size: 66px;
+     font-weight: 300;
+     margin-bottom: 25px;
+     line-height: 1.2;
+ }
+ 
+ p {
+     font-size: 23px;
+     font-weight: lighter;
+     opacity: 0.8;
+     line-height: 1.6;
+    margin-bottom: 10px;
+ }
+ 
+ .video-btn {
+     display: inline-block;
+     margin-bottom: 140px;
+     color: white;
+     text-decoration: none;
+     font-weight: lighter;
+     font-size: 23px;
+ }
+ 
+ #about {
+     background-color: #ecedee;
+     padding: 2px 20px;
+     text-align: center;
+ }
+ 
+ #about .container {
+     max-width: 900px;
+     margin: 0 auto;
+     margin-top: -58px;
+     display: flex;
+     justify-content: center;
+     gap: 32px;
+     flex-wrap: nowrap;
+     flex-direction: row;
+ }
+ 
+ .box {
+     background: white;
+     padding: 40px;
+     margin-top: 0;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     width: 30%;
+     min-width: 280px;
+ }
+ 
+ .box i {
+    font-size: 40px;  /* Tamaño del icono */
+    color: #6078ea;   /* Color del icono */
+    margin-bottom: 15px; /* Espacio debajo del icono */
+    display: block;
+    text-align: left; /* Alineado a la izquierda como los textos */
+}
+ .box h3 {
+     font-family: 'Rubik', sans-serif;
+     color: #141414;
+     font-size: 22px;
+     margin-bottom: 10px;
+     text-align: left;
+     font-weight: lighter;
+ }
+ 
+ .box p {
+     font-family: 'Rubik', sans-serif;
+     color: #333;
+     font-size: 16px;
+     line-height: 1.5;
+     text-align: left;
+ }
+ 
+ .button-container {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+ }
+ 
+ .button {
+     display: inline-block;
+     background: #17ead9;
+     color: white;
+     padding: 15px 130px;
+     border-radius: 5px;
+     text-decoration: none;
+     font-size: 15px;
+     font-family: 'Rubik', sans-serif;
+     transition: background 0.3s ease;
+ }
+ 
+ .button:hover {
+     background: #6078ea;
+ }
