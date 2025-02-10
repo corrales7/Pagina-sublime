@@ -236,3 +236,111 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+#guidance {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    overflow: hidden; /* Evita scroll no deseado */
+}
+
+#guidance .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#guidance .text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#guidance .text-content h3 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 1px;
+    text-align: left;
+    font-weight: 70;
+}
+
+#guidance .text-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#guidance .logo {
+    margin-top: 20px; /* Separación entre el texto y la imagen */
+}
+
+#guidance .logo .twitter {
+    text-align: center; /* Centra la imagen de Twitter */
+}
+
+#guidance .logo .small-logo {
+    width: 40px; /* Tamaño reducido de la imagen de Twitter */
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#guidance .testimonial h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #060606;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#guidance .testimonial blockquote {
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    left: -35px; 
+    line-height: 1.8;
+}
+
+#guidance .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+#guidance .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#guidance .img-content {
+    flex: 1;
+    position: relative;
+    margin-left: 20px;
+}
+
+#guidance .img-content img {
+    width: 180%;
+    height: auto;
+    position: relative;
+    right: -39px; /* Hace que sobresalga hacia la derecha */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logotwitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
