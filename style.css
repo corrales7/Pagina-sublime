@@ -149,6 +149,82 @@ body {
  .button:hover {
      background: #6078ea;
  }
+
+ #extraordinary-design {
+    display: flex;
+    align-items: center;
+    padding: 120px 20px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+#extraordinary-design .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#extraordinary-design .text-content {
+    flex: 1;
+    padding-left: 30px; 
+    padding-right: 50px; 
+}
+
+#extraordinary-design .text-content h3 {
+    font-size: 32px;
+    color: #222222; 
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 100; 
+}
+
+#extraordinary-design .text-content p {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.8;
+    color: #333; 
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+#extraordinary-design .img-content {
+    flex: 1;
+    position: relative;
+    margin-left: 20px;
+}
+
+#extraordinary-design .img-content img {
+    width: 200%; 
+    height: auto;
+    position: relative;
+    right: 650px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.author {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+.author-img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.author span {
+    font-size: 16px; 
+    color: #333; 
+    font-weight: normal;
+    text-align: left;
+}
  #guidance {
     display: flex;
     align-items: center;
@@ -234,7 +310,7 @@ body {
     position: relative;
     right: -39px; /* Hace que sobresalga hacia la derecha */
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(6, 6, 6, 0.2);
 }
 
 #guidance {
